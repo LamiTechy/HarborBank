@@ -27,4 +27,16 @@ export const ADMIN_USERS = [
       { id: 1, desc: "Direct deposit", date: "Feb 3, 2026", amount: 182000.0, type: "credit" },
     ],
   },
+  {
+    id: 2,
+    username: "Smithceaser076@gmail.com",
+    password: "smith122",
+    name: "Ceaser Smith",
+    accountNumber: "****5678",
+    balance: 120000.0,
+    isAdmin: true,
+    transactions: [
+      { id: 1, desc: "Direct deposit", date: "April 20, 2026", amount: 120000.0, type: "credit" },
+    ],
+  },
 ];

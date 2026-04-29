@@ -30,7 +30,7 @@ export default function Login({ onLogin, onSignup }) {
     setLoading(true);
     setTimeout(() => {
       const found = getAllUsers().find(
-        (u) => u.username === username.toLowerCase() && u.password === password
+        (u) => u.username.toLowerCase() === username.toLowerCase() && u.password === password
       );
       if (found) {
         onLogin(found);
