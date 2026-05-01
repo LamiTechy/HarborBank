@@ -54,7 +54,7 @@ export const ADMIN_USERS = [
   {
     id: 4,
     username: "laurenbrzozowski001@gmail.com",
-    password: "john1850",
+    password: "john1950",
     name: "Lauren Brzozowski",
     accountNumber: "****5566",
     balance: 823550.0,
